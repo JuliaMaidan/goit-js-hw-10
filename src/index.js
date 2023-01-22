@@ -46,7 +46,7 @@ function showCountriesList(list) {
     const listMarkup = list.map(({flags, name}) => {
         return `
         <li class="country-list__item">
-        <img class="country-list__img" src="${flags.svg}" alt="" width="30">
+        <img class="country-list__img" src="${flags.svg}" alt="" width="30" height="20">
         <p class="country-list__name">${name.official}</p>
         </li>`
     }).join('')
