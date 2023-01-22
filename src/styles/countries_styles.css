@@ -1,0 +1,41 @@
+input {
+    margin-bottom: 0;
+}
+
+.country-list {
+    list-style-type: none;
+}
+
+.country-list__item {
+    display: flex;
+    gap: 10px;
+    margin-top: 0;
+}
+
+/* .country-list__item:not(:last-child) {
+    margin-bottom: -5px;
+} */
+
+.country-list__name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.country-info__img {
+ display: inline;
+ align-items: baseline;
+ margin-right: 10px;
+}
+
+.country-info__name {
+display: inline;
+font-size: 44px;
+}
+
+span {
+    font-weight: bold;
+}
+/* country-info__name 
+country-info__capital 
+country-info__population 
+country-info__languages
