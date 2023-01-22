@@ -8,12 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #212121;
-
-  
-  /* background: rgb(34, 91, 195);
-    background: linear-gradient(0deg, rgba(34, 91, 195, 1) 0%, rgba(255, 248, 234, 1) 100%);
-  background-size: contain;
-  background-repeat: no-repeat; */
+  background-color: #d6d0c463;
 }
 
 #search-box {
@@ -53,8 +48,3 @@ body {
 span {
   font-weight: bold;
 }
-
-/* country-info__name 
-country-info__capital 
-country-info__population 
-country-info__languages

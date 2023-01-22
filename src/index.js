@@ -19,7 +19,6 @@ function onInputChange() {
         countriesListEl.innerHTML = ''
         countryBoxEl.innerHTML = ''
         if (countries.length === 1) {
-            // countriesListEl.innerHTML = showCountriesList(countries)
             countryBoxEl.innerHTML = createMarkup(countries)
         } else if (countries.length > 10) {
             showWarningInfo()
